@@ -1,0 +1,8 @@
+#lfs  https://www.linuxfromscratch.org/lfs/LFS-EDITORS-GUIDE.html
+
+sudo apt-get install bash binutils bison coreutils diffutils findutils gawk gcc grep gzip m4 make patch perl sed tar texinfo xz-utils wget
+sudo rm /bin/sh
+sudo ln -s /bin/bash /bin/sh
+
+export DIST=./
+export LFS=./env/root
